@@ -11,5 +11,5 @@ for image in images:
 	img = cv2.imread(folder+"/"+image)
 	# print(img)
 	cv2.imshow('image',img)
-	cv2.waitKey(0)
+	cv2.waitKey(0) #waits for keystroke. change to number of seconds to slide automatically.
 cv2.destroyAllWindows()
