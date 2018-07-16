@@ -1,7 +1,7 @@
 from os import listdir
 from os.path import isfile, join
 import cv2
-folder = "/home/shield/Basics/Python/pics/"
+folder = "/home/shield/Basics/Python/pics/" #change to required directory.
 images = [f for f in listdir(folder) if isfile(join(folder, f))] #search for all files and store in array
 images.pop(0) #first value in array will be .directory which causes errors.
 print(images) #list the final array.
