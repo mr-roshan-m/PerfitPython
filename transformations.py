@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-img = cv2.imread('img_0203.jpg')
+img = cv2.imread('rocket.jpg')
 rows,cols,ch = img.shape
 
 pts1 = np.float32([[56,65],[368,52],[28,387],[389,390]])
